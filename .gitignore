@@ -1,0 +1,40 @@
+
+# Ignore object files, libraries, and executables
+*.o
+*.a
+*.so
+*.out
+*.exe
+*.dll
+
+# Ignore compiler-generated dependency files
+*.d
+
+# Ignore debugging files
+*.gch
+*.gcno
+*.gcda
+*.gcov
+
+# Ignore temporary files created by editors
+*.swp
+*.swo
+*.bak
+*~
+
+# Ignore build directories (if you have any)
+build/
+bin/
+lib/
+
+# Ignore Makefile-generated files
+Makefile~
+
+# Ignore Visual Studio Code settings and workspace-specific files
+.vscode/
+*.code-workspace
+
+# Ignore VSCode-specific files for C extensions (such as debugging configurations)
+launch.json
+tasks.json
+c_cpp_properties.json
